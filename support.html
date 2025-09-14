@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calotrack AI – Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #555;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      resize: vertical;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .contact-info {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Support – Calotrack AI</h1>
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <!-- Replace the action URL with your form handler endpoint -->
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="contact-info">
+      Or email us directly at
+      <a href="mailto:calotrackai@gmail.com">calotrackai@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
